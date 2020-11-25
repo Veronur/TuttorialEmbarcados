@@ -1,9 +1,9 @@
 # Coloque aqui o nome do tutorial de vocês
 
-- **Alunes:** .../ ... /...
+- **Alunos:** Vinicius Gomes de Lima / Lucca Delchiaro Costabile
 - **Curso:** Engenharia da Computação
-- **Semestre:** 9
-- **Contato:** corsiferrao@gmail.com
+- **Semestre:** 8
+- **Contato:** viniciusgl1@al.insper.edu.br / luccadelchiaro@gmail.com
 - **Ano:** 2020
 
 ## Começando
@@ -13,19 +13,24 @@ Para seguir esse tutorial é necessário:
 - **Hardware:** DE10-Standard e acessórios
 - **Softwares:** Quartus 18.01
 - **Documentos:** [DE10-Standard_User_manual.pdf](https://github.com/Insper/DE10-Standard-v.1.3.0-SystemCD/tree/master/Manual)
-
+- **Outros:** [Login da AWS](https://aws.amazon.com/free)
+  
 ## Motivação
 
-Expliquem porque quiseram fazer esse tutorial.
+Existem problemas em diverssas áreas da computação hoje em dia que podem ser processados das mais diverssas formas, a fim de que sua execuções fiquem o melhor e o mais dinamicas o possível.
+
+Tecnologias como paralelização em CPU, uso de GPUs e TPUs são alguns dos mais famosos, no entanto, com o crescimento das áreas de cloud e hardwares dedicados, a junção destas tecnologias pode se provar extremamente eficiente na solução de alguns problemas
+
+Este tutorial se propõe justamente a uma trazer um primeiro contato com um problema real - no caso da area de machine learning - que pode ser tratado com eficiencia utilizando-se das tecnologias acima citadas.
 
 ----------------------------------------------
 
-!!! info 
+<!-- !!! info 
     Essas duas partes são obrigatórias no tutorial:
     
     - Nome de vocês
     - Começando
-    - Motivação
+    - Motivação -->
 
 ## Recursos Markdown
 
