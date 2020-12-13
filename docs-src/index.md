@@ -77,6 +77,8 @@ Primeiramente é necessário criar na própria interface da AWS duas instâncias
         - Prestar atenção nas AMIs utilizadas. Nao é possível compilar um programa em vitis na versão 1.7.1, assim como SDAccel em 1.9.1. 
         - Utilizar no mínimo 100GB para as instâncias de desenvolvimento, pois o processo de compilação utiliza muita memoria.
 
+Também clone o repositorio https://github.com/Veronur/TuttorialEmbarcados/blob/master/docs-src/index.md
+
 #### Na instância de desenvolvimento
 
 ??? note
@@ -91,9 +93,9 @@ Os passos para preparar o ambiente e rodar a simulação sao parecidos.
     4. cd
         1. SDAccel/examples/xilinx_2019.1/getting_started/hello_world/helloworld_ocl/
         2. Vitis/examples/xilinx/hello_world
-
-    5. make clean
-    6. Simulando em software e hardware
+    5. Substitua o conteúdo do src com o conteúdo do github clonado
+    6. make clean
+    7. Simulando em software e hardware
         1. make check TARGETS=sw_emu DEVICE=$AWS_PLATFORM all
         2. make check TARGETS=hw_emu DEVICE=$AWS_PLATFORM all
 
